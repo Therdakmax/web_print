@@ -1,0 +1,44 @@
+#print-content {
+    display: none;
+}
+#movetxt {
+    -webkit-animation: moving 3s;
+    animation: moving 3s ;
+}
+@keyframes moving {
+    0% {transform: translateX(-100px);}
+    50% {transform: translateX(200px);}
+    100% {transform: translateX(0px);}
+}
+#movemenu {
+    -webkit-animation: movemenu 3s;
+    animation: movemenu 3s;
+}
+@keyframes movemenu {
+    to {transform: translateY(0px);}
+    from {transform: translateY(300px);}
+}
+#movemenu2 {
+    -webkit-animation: movemenu2 4s;
+    animation: movemenu2 4s;
+}
+@keyframes movemenu2 {
+    to {transform: translateY(0px);}
+    from {transform: translateY(300px);}
+}
+#movemenu3 {
+    -webkit-animation: movemenu3 5s;
+    animation: movemenu3 5s;
+}
+@keyframes movemenu3 {
+    to {transform: translateY(0px);}
+    from {transform: translateY(300px);}
+}
+#movemenu4 {
+    -webkit-animation: movemenu3 6s;
+    animation: movemenu3 6s;
+}
+@keyframes movemenu4 {
+    to {transform: translateY(0px);}
+    from {transform: translateY(300px);}
+}
